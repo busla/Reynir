@@ -590,10 +590,10 @@ class NounPreferences:
 class Settings:
 
     # DNS name of host for word database
-    DB_HOSTNAME = "localhost"
+    DB_HOSTNAME = os.environ['DB_HOST']
 
     # Flask server host
-    HOST = "127.0.0.1"
+    HOST = os.environ['WEB_HOST']
 
     # Flask debug parameter
     DEBUG = False

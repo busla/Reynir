@@ -160,7 +160,7 @@ Limited installation and setup instructions can be
 
 Greynir can also be installed using Docker.
 
-[Greynir with Docker](https://github.com/busla/greynir-docker)
+[Greynir with Docker](https://github.com/vthorsteinsson/greynir-docker)
 
 ## Installation on OSx (Homebrew)
 * Download and extract pypy3.3 (http://pypy.org/download.html#installing)
